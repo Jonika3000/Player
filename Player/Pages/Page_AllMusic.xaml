@@ -1,0 +1,118 @@
+﻿<Page x:Class="Player.Pages.Page_AllMusic"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Player.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="800"
+      Title="Page_AllMusic" Loaded="Page_Loaded">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Pages/Styles_For_Pages.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+        <Grid > 
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Vertical"
+                        Grid.Row="0">
+                <TextBlock Text="My music"
+                           Foreground="White"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontSize="45"
+                           Margin="20"
+                           FontWeight="Light"/>
+                <StackPanel Orientation="Horizontal"
+                            Margin="20,5">
+                    <Button x:Name="ButtonRnd"
+                            Width="200"
+                            Height="30"
+                            BorderThickness="0"
+                            Style="{DynamicResource ButtonStyle}" Cursor="Hand" Click="ButtonRnd_Click">
+                        <StackPanel Orientation="Horizontal"
+                                    HorizontalAlignment="Left">
+                            <Image Source="Image_For_Page/icons8_swap_50px.png"/>
+                            <TextBlock Text="  In random order"
+                                       Foreground="White"
+                                       FontSize="20"
+                                       FontWeight="Light"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="ButtonGenre"
+                            Width="200"
+                            Height="30"
+                            BorderThickness="0"
+                            Style="{DynamicResource ButtonStyle}" 
+                            Cursor="Hand"
+                            Margin="23,0" Click="ButtonGenre_Click">
+                    <Button.ContextMenu>
+                        <ContextMenu  Name="ContextMenuGenre" 
+                                      Style="{DynamicResource ContextMenuStyle}">
+                           
+                        </ContextMenu>
+                    </Button.ContextMenu>
+                    <StackPanel Orientation="Horizontal"
+                                    HorizontalAlignment="Left">
+                            <Image Source="Image_For_Page/icons8_progressive_rock_32px.png"/>
+                            <TextBlock Text="  Genre:"
+                                       Foreground="White"
+                                       FontSize="20"
+                                       FontWeight="Light"/>
+                            <TextBlock Text="  all genre"
+                                       Foreground="Gray"
+                                       FontSize="20"
+                                       FontWeight="Light"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        <StackPanel VerticalAlignment="Bottom"
+                    HorizontalAlignment="Left"
+                    Orientation="Horizontal"
+                    Grid.Row="0">
+            <TextBlock Text="          Title" Width="240"
+                        Foreground="White"
+                        FontSize="15"
+                        FontWeight="Light"/>
+            <TextBlock Text="" Width="60"/>
+            <TextBlock Text="" Width="60"/>
+            <TextBlock Text="Artist" Width="110"
+                        Foreground="White"
+                        FontSize="15"
+                        FontWeight="Light"/>
+            <TextBlock Text="Album" Width="120"
+                        Foreground="White"
+                        FontSize="15"
+                        FontWeight="Light"/>
+            <TextBlock Text="Genre" Width="115"
+                        Foreground="White"
+                        FontSize="15"
+                        FontWeight="Light"/>
+            <TextBlock Text="Time" Width="40"
+                        Foreground="White"
+                        FontSize="15"
+                        FontWeight="Light"/>
+        </StackPanel>
+        <Line X1="0" X2="860" Stroke="Gray"
+                          VerticalAlignment="Bottom"/>
+        <ScrollViewer VerticalScrollBarVisibility="Hidden"
+                      Grid.Row="1">
+
+            <Grid Grid.Row="1">
+                <StackPanel Orientation="Vertical"
+                        x:Name="MainStackPanel"
+                        Grid.Row="1" >
+
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+    
+   
+</Page>

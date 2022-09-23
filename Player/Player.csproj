@@ -1,0 +1,121 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\Ariana Grande, Nelly Furtado - Motive X Promiscuous %28mp3day.net%29.mp3" />
+    <None Remove="Image\black-music-note-icon-5.png" />
+    <None Remove="Image\icons8_fast_forward_50px.png" />
+    <None Remove="Image\icons8_Menu_24px.png" />
+    <None Remove="Image\icons8_music_26px.png" />
+    <None Remove="Image\icons8_Music_64px_1.ico" />
+    <None Remove="Image\icons8_music_folder_24px.png" />
+    <None Remove="Image\icons8_mute_50px.png" />
+    <None Remove="Image\icons8_pause_24px.png" />
+    <None Remove="Image\icons8_playlist_24px.png" />
+    <None Remove="Image\icons8_play_24px.png" />
+    <None Remove="Image\icons8_rewind_24px.png" />
+    <None Remove="Image\icons8_rewind_24pxM.png" />
+    <None Remove="Image\icons8_search_24px.png" />
+    <None Remove="Image\icons8_search_30px.png" />
+    <None Remove="Image\icons8_sound_50px.png" />
+    <None Remove="Image\icons8_swap_50px.png" />
+    <None Remove="Image\icons8_time_machine_32px_2.png" />
+    <None Remove="Image\mirror forward.jpg" />
+    <None Remove="Pages\Image_for_page\black-music-note-icon-5.png" />
+    <None Remove="Pages\Image_for_page\icons8_github_32px.png" />
+    <None Remove="Pages\Image_for_page\icons8_info_26px_2.png" />
+    <None Remove="Pages\Image_for_page\icons8_play_24px.png" />
+    <None Remove="Pages\Image_for_page\icons8_Plus_24px.png" />
+    <None Remove="Pages\Image_for_page\icons8_progressive_rock_32px.png" />
+    <None Remove="Pages\Image_for_page\icons8_swap_50px.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\icons8_Music_64px_1.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_mute_50px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\black-music-note-icon-5.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+    <PackageReference Include="TagLibSharp" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\icons8_fast_forward_50px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_Menu_24px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_music_26px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_music_folder_24px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_pause_24px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_playlist_24px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_play_24px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_rewind_24px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_rewind_24pxM.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_search_30px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_sound_50px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_time_machine_32px_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Pages\Image_for_page\black-music-note-icon-5.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Pages\Image_for_page\icons8_github_32px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icons8_info_26px_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Pages\Image_for_page\icons8_play_24px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Pages\Image_for_page\icons8_Plus_24px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Pages\Image_for_page\icons8_progressive_rock_32px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Pages\Image_for_page\icons8_swap_50px.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
