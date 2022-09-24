@@ -5,9 +5,11 @@ The music player for wpf spellings has a multifunctional full-fledged interface.
 This is the main page, it reflects all the songs that are in the Music directory. Also on the same page you can play random music and sort it by genre using two corresponding buttons.
 
 ![image](https://user-images.githubusercontent.com/66825034/192091794-13c27b3b-46b9-4b8f-ad33-5bcd0a209965.png)
+
 The second page is the last listening, the maximum number of plays that can be stored is 50.
 
 ![image](https://user-images.githubusercontent.com/66825034/192091878-b8925ff1-e2f0-4a31-a038-320b32d076bb.png)
+
 The next page - "now playing" it shows which track is currently playing and which was the previous one and will be the next one.
 
 ![image](https://user-images.githubusercontent.com/66825034/192091940-8e4acb60-eec7-48a6-a229-bc695428a391.png)
@@ -21,6 +23,11 @@ You can create a playlist using the corresponding button. By clicking on it, a n
 To add a track to the playlist, you need to click on the plus sign on the desired track.
 
 ![image](https://user-images.githubusercontent.com/66825034/192092727-985b61a1-0258-4332-a8ad-7377316416b8.png)
+
+To remove a track from the playlist, you need to right-click and on the desired track in the desired playlist.
+
+![image](https://user-images.githubusercontent.com/66825034/192094333-c8742570-c73e-43b2-a99f-219bbc0bc2d3.png)
+
 ![image](https://user-images.githubusercontent.com/66825034/192092644-b6906c9f-6c1c-400b-ace2-5a79f62dd965.png)
 
 The program has a search by track or artist.
