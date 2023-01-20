@@ -24,7 +24,8 @@ namespace Player
             {
                 if (path == null || path == string.Empty)
                 {
-                    path = @"C:\Users\Home\Music";
+                    string userName = Environment.UserName;
+                    path = @$"C:\Users\{userName}\Music";
                 }
             }
             
